@@ -46,6 +46,10 @@ android {
     }
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 dependencies {
 
     def coroutinesVersion = '1.6.4'
